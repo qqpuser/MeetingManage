@@ -1,40 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array>
-    <array>
-        <dict>
-            <key>assets</key>
-            <array>
-                <dict>
-                    <key>kind</key>
-                    <string>software-package</string>
-                    <key>url</key>
-                    <string>http://hyfw8.rd.gz.cn/static/MeetingManage/MeetingManage.ipa</string>
-                </dict>
-                <dict>
-                    <key>kind</key>
-                    <string>full-size-image</string>
-                    <key>needs-shine</key>
-                    <true/>
-                    <key>url</key>
-                    <string>http://hyfw8.rd.gz.cn/static/MeetingManage/logo.png</string>
-                </dict>
-                <dict>
-                    <key>kind</key>
-                    <string>display-image</string>
-                    <key>needs-shine</key>
-                    <true/>
-                    <key>url</key>
-                    <string>http://hyfw8.rd.gz.cn/static/MeetingManage/logo2.png</string>
-                </dict>
-            </array>
-            <key>metadata</key>
 <dict>
 	<key>compileBitcode</key>
 	<true/>
 	<key>destination</key>
 	<string>export</string>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://hyfw.rd.gz.cn/static/MeetingManage/MeetingManage.ipa</string>
+		<key>displayImageURL</key>
+		<string>https://hyfw.rd.gz.cn/static/MeetingManage/logo.png</string>
+		<key>fullSizeImageURL</key>
+		<string>https://hyfw.rd.gz.cn/static/MeetingManage/logo2.png</string>
+	</dict>
 	<key>method</key>
 	<string>enterprise</string>
 	<key>provisioningProfiles</key>
@@ -53,7 +33,4 @@
 	<key>thinning</key>
 	<string>&lt;none&gt;</string>
 </dict>
-        </dict>
-    </array>
-</array>
 </plist>
